@@ -12,7 +12,9 @@ This will create a PDF file named ImageContainingBook.pdf and integrate all of t
 
 Therefore the last line of our script would be:
 
-    file.write(img2pdf.convert([i for i in os.listdir("C:\\Users\\suyash sunil mane\\OneDrive\\Desktop\\Scriptproject.py")if i.endswith(".jpg")]))
+    file.write(img2pdf.convert([i for i in os.listdir("C:\\Users\\suyash sunil 
+    
+    mane\\OneDrive\\Desktop\\Scriptproject.py")if i.endswith(".jpg")]))
 Let me explain the code now.
 
 os.listdir("C:\Users\fahim\Desktop\ImageToPdf") This line uses the os module to list all the files in the directory specified by the given path. In this case, it is the directory "C:\Users\fahim\Desktop\ImageToPdf".
